@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+* {
+    font-family: "Open Sans", sans-serif;
+  }
+
+
+
+.letter-spacing {
+    letter-spacing: 0.17em;
+}
+
+.text-light2{
+    color: #c8c8c8;
+}
+.text-light3{
+    color: #979797;
+}
+
+.border-light3{
+    border: solid 0.3px #c8c8c8;
+}
+
+.stikcy{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: yellow;
+    padding: 50px;
+    font-size: 20px;
+}
+
+
+.font-header{ font-size: 44px !important; font-weight:  bold !important;}
+.font-title{ font-size: 34px !important; font-weight:  bold !important;}
+.font-subtitle{ font-size: 24px !important; font-weight:  bold !important;}
+.font-subtitle2{ font-size: 14px !important; font-weight:  bold !important;}
+.font-p{ font-size:12px !important; font-weight: lighter !important;}
+.font-c{ font-size:10px !important;font-weight: lighter !important;}
+.font-small{ font-size:8px !important;font-weight: lighter !important;}
+.font-smalles{ font-size:7px !important;font-weight: lighter !important;}
+
+
+
+.banner{
+    background-image: url("../assets/img/bannerade.png");
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+    background-color: black;
+    height: 500px;
+
+}
+
+.title{
+    width: 38% !important;
+    margin-right: 20%;
+    margin-left: auto;
+    margin-top: 8% !important;
+    text-align: right;
+}
+
+.border-title::after{
+    content: "";
+    border: solid 2px #efd510;
+    position: absolute;
+    width: 60px;
+    top: 60px;
+    left: 15px;
+    border-radius: 22px;
+}
+
+.subtitle
+{
+    position: relative;
+    margin-bottom: 45px !important;
+}
+.subtitle::after{
+    content: "";
+    position: absolute;
+    border: solid #f2910a 2px;
+    width: 60px ;
+    border-radius: 10px;
+    top:40px;
+    left: 0px;
+}
+
+.border-atas::after{
+    content: "";
+    border: solid 2px #FFB356;
+    position: absolute;
+    width: 60px;
+    top: 60px;
+    left: 15px;
+    border-radius: 22px;
+
+}
+
+
+.is-sticky {
+    position: fixed;
+    top: 10px;
+    z-index: 999;
+    animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
+  }
+
+  .margin-section{
+    margin-top: 70px !important;
+  }
+
+
+
+
+  .aws-btn {
+    --button-default-height: 38px;
+    --button-default-font-size: 14px;
+    --button-default-border-radius: 10px;
+    --button-horizontal-padding: 26px;
+    --button-raise-level: 7px;
+    --button-hover-pressure: 3;
+    --transform-speed: 0.1s;
+    --button-primary-color: #26282e;
+    --button-primary-color-dark: #030304;
+    --button-primary-color-light: #f7f7f2;
+    --button-primary-color-hover: #26282d;
+    --button-primary-color-active: #16171a;
+    --button-primary-border: 0px solid #f7f7f3;
+    --button-secondary-color: #ebd64a;
+    --button-secondary-color-dark: #030304;
+    --button-secondary-color-light: #26282d;
+    --button-secondary-color-hover: #e7d763;
+    --button-secondary-color-active: #ffee6b;
+    --button-secondary-border: 0px solid #1e88e5;
+    --button-anchor-color: #0e4f88;
+    --button-anchor-color-dark: #072743;
+    --button-anchor-color-light: #ffffff;
+    --button-anchor-color-hover: #0d4a7f;
+    --button-anchor-color-active: #0c4271;
+    --button-anchor-border: none;
+    --button-danger-color: #d75433;
+    --button-danger-color-dark: #861f1f;
+    --button-danger-color-light: #ffffff;
+    --button-danger-color-hover: #c75d3e;
+    --button-danger-color-active: #af2929;
+    --button-danger-border: none;
+  }
+
+
+@media only screen and (max-width: 600px) {
+    
+.title{
+    width: 300px !important;
+    margin-right: 6%;
+    margin-left: auto;
+    margin-top: 30% !important;
+    text-align: right;
+}
+  }
